@@ -57,18 +57,22 @@ export default function About() {
                         w={["100%", null, "50%"]}
                     >
                         <Box>
-                            <Flex
-                                align="center"
-                                data-aos="fade-up"
-                                data-aos-duration="1000"
-                            >
+                            <Flex align="center">
                                 <Text
                                     w="10px"
                                     bgColor="brand.purple"
                                     h="10px"
                                     borderRadius="50%"
+                                    data-aos="fade-left"
+                                    data-aos-duration="1000"
                                 ></Text>
-                                <Text fontSize="14px" fontWeight="700" px="5px">
+                                <Text
+                                    fontSize="14px"
+                                    fontWeight="700"
+                                    px="5px"
+                                    data-aos="fade-up"
+                                    data-aos-duration="1000"
+                                >
                                     WHO WE ARE
                                 </Text>
                                 <Text
@@ -76,11 +80,13 @@ export default function About() {
                                     bgColor="brand.purple"
                                     h="10px"
                                     borderRadius="50%"
+                                    data-aos="fade-right"
+                                    data-aos-duration="1000"
                                 ></Text>
                             </Flex>
                             <Heading
                                 data-aos="fade-up"
-                                data-aos-duration="2000"
+                                data-aos-duration="1000"
                             >
                                 Demo/Sample{" "}
                                 <Text as="span" color="brand.purple">
