@@ -10,7 +10,7 @@ const Hero = () => {
             bgImage="/bg.png"
             bgSize="cover"
             bgPosition="center"
-	    pb="45px"
+            pb="45px"
         >
             <Box maxW="700px" mx="auto" textAlign={"center"} pt="30px">
                 <Text
@@ -25,16 +25,16 @@ const Hero = () => {
                 <Text
                     mt={["10px", null, "16px"]}
                     fontSize={["22px", null, "40px"]}
-		    textTransform="uppercase"
+                    textTransform="uppercase"
                     fontWeight={"600"}
                 >
-                    The Demo/Sample NFT
+                    The Starklabs NFT
                 </Text>
 
                 <Text
                     mt={["10px", null, "16px"]}
                     fontSize={["12px", null, "14px"]}
-		    mb={["20px", null, "20px"]}
+                    mb={["20px", null, "20px"]}
                 >
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Deleniti sit neque rerum beatae itaque quam! Sapiente.

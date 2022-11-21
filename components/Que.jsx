@@ -72,27 +72,28 @@ const Que = () => {
             })}
         </Accordion>
     );
+    
 };
 
 export default Que;
 
 const faq = [
     {
-        que: "When is the minting date?",
-        ans: "As the Azero mainnet is not live yet, we can't determine the mint date. At the moment we're testing and preparing our demo/Samples. The exact date is yet to be announced so follow our latest announcements on Discord, Twitter and Telegram.",
+        que: "Lorem ipsum dolor, sit amet?",
+        ans: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi, saepe fugit quod dignissimos sapiente sunt voluptatum mollitia explicabo tenetur similique quisquam ipsam debitis distinctio doloremque. Ipsa nam error atque.",
     },
     {
-        que: " What is the minting price?",
-        ans: "We want to have demo/Sample accessible to everyone. The currency of our project will be $Azero tokens, so the price will be adjusted to the value of $Azero when it reaches the public.",
-    },
-
-    {
-        que: "  Will there be secondary markets?",
-        ans: "Yes, we are in contact with ArtZero marketplaces on the Azero chain to be listed right after our mint.",
+        que: "Lorem ipsum dolor, sit amet?",
+        ans: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi, saepe fugit quod dignissimos sapiente sunt voluptatum mollitia explicabo tenetur similique quisquam ipsam debitis distinctio doloremque. Ipsa nam error atque.",
     },
 
     {
-        que: " Will there be a presale?",
-        ans: "Yes, we desire to ensure that active community members are rewarded that's why we are going to provide a presale mint for whitelisted users.",
+        que: "Lorem ipsum dolor, sit amet?",
+        ans: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi, saepe fugit quod dignissimos sapiente sunt voluptatum mollitia explicabo tenetur similique quisquam ipsam debitis distinctio doloremque. Ipsa nam error atque.",
+    },
+
+    {
+        que: "Lorem ipsum dolor, sit amet?",
+        ans: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi, saepe fugit quod dignissimos sapiente sunt voluptatum mollitia explicabo tenetur similique quisquam ipsam debitis distinctio doloremque. Ipsa nam error atque.",
     },
 ];

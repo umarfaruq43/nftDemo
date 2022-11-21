@@ -10,6 +10,7 @@ const Collection = () => {
 
     return (
         <Box
+	id="collection"
             py="64px"
             bgImage="/bg.png"
             bgPos={"center"}

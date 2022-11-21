@@ -74,7 +74,7 @@ export default function Roadmap() {
                     maxWidth="700px"
                     mb="20"
                 >
-                    demo/Sample Strategy And Project{" "}
+                    Starklabs Strategy And Project{" "}
                     <Text as="span" color="brand.purple">
                         Plan
                     </Text>{" "}

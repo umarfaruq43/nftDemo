@@ -76,7 +76,7 @@ a {
 }
 .feature_box:hover {
     border-color: transparent;
-    transition: all .51s ease-in-out;
+    transition: all 0.51s ease-in-out;
 }
 
 .feature {
@@ -85,7 +85,6 @@ a {
 
 .feature_box:hover .feature {
     border-color: #6f42c1;
-
 }
 
 .marquee {
@@ -139,13 +138,21 @@ a {
     -webkit-text-stroke: 2px #6f42c1;
 
     color: transparent;
-    transition: all .51s ease-in-out;
+    transition: all 0.51s ease-in-out;
 }
 
 .feature_box:hover #textStrock {
     /* text-shadow: 0px 1px 4px #fff; */
     color: #6f42c1;
-    -webkit-text-stroke: 1px ;
+    -webkit-text-stroke: 1px;
+}
 
-
+.swiper {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 0 !important;
 }

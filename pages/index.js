@@ -15,10 +15,10 @@ export default function Home() {
     return (
         <Box>
             <Head>
-                <title>demo/Sample</title>
+                <title>Starklabs</title>
                 <meta
                     name="description"
-                    content="Demo/sample NFT’s a collection of all brains behind  Demo/sample blockchain, immortalised within our #NFTs. Created out of appreciation, these Paladins will now live forever on chain!!"
+                    content="Starklabs NFT’s a collection of all brains behind  Starklabs blockchain, immortalised within our #NFTs. Created out of appreciation."
                 />
                 <link rel="icon" href="/favicon.ico" />
             </Head>

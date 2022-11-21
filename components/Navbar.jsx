@@ -31,7 +31,7 @@ const NavLink = ({ children, href }) => (
             textDecoration: "none",
         }}
         href={href}
-	// fontSize="16px"
+        // fontSize="16px"
     >
         {children}
     </Link>
@@ -39,7 +39,7 @@ const NavLink = ({ children, href }) => (
 
 export default function Nav() {
     return (
-        <Box  bgColor="brand.deepBlue">
+        <Box bgColor="brand.deepBlue" zIndex={"popover"}>
             <ScreenSize>
                 <Flex
                     h={"16"}
@@ -63,7 +63,7 @@ export default function Nav() {
                             </Box>
 
                             <Box display={["block", null, "none"]}>
-                                <Menu>
+                                <Menu className="overLay">
                                     <MenuButton
                                         as={Button}
                                         rounded={"full"}
@@ -71,42 +71,50 @@ export default function Nav() {
                                         cursor={"pointer"}
                                         color="#fff"
                                         minW={"100%"}
+                                        className="overLay"
                                     >
                                         <FaBars />
                                     </MenuButton>
-                                    <MenuList
-                                        alignItems={"center"}
-                                        bgColor="brand.deepBlue"
-                                    >
-                                        {NavContent.map(({ text, href }, i) => {
-                                            return (
-                                                <Box
-                                                    key={i}
-                                                    bgColor="brand.deepBlue"
-                                                    _hover={{
-                                                        bgColor:
-                                                            "brand.deepBlue",
-                                                    }}
-                                                    _focus={{
-                                                        bgColor:
-                                                            "brand.deepBlue",
-                                                    }}
-						    fontWeight="500"
-                                                >
-                                                    <Link
-                                                        display="block"
-                                                        py="8px"
-                                                        px="16px"
-                                                        href={href}
-                                                        w="100%"
-                                                        h="100%"
-                                                    >
-                                                        {text}
-                                                    </Link>
-                                                </Box>
-                                            );
-                                        })}
-                                    </MenuList>
+                                    <Box >
+                                        <MenuList
+                                            alignItems={"center"}
+                                            bgColor="brand.deepBlue"
+                                        >
+                                            {NavContent.map(
+                                                ({ text, href }, i) => {
+                                                    return (
+                                                        <Box
+                                                            style={{
+                                                                zIndex: "1000",
+                                                            }}
+                                                            key={i}
+                                                            bgColor="brand.deepBlue"
+                                                            _hover={{
+                                                                bgColor:
+                                                                    "brand.deepBlue",
+                                                            }}
+                                                            _focus={{
+                                                                bgColor:
+                                                                    "brand.deepBlue",
+                                                            }}
+                                                            fontWeight="500"
+                                                        >
+                                                            <Link
+                                                                display="block"
+                                                                py="8px"
+                                                                px="16px"
+                                                                href={href}
+                                                                w="100%"
+                                                                h="100%"
+                                                            >
+                                                                {text}
+                                                            </Link>
+                                                        </Box>
+                                                    );
+                                                }
+                                            )}
+                                        </MenuList>
+                                    </Box>
                                 </Menu>
                             </Box>
                         </Stack>

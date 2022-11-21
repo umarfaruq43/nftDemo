@@ -16,7 +16,7 @@ SwiperCore.use([Navigation, Autoplay, Pagination, EffectCoverflow]);
 
 const ThreedScroll = () => {
     return (
-        <Box maxWidth="" mx="auto"  id="mint">
+        <Box maxWidth="" mx="auto"  id="mint" style={{zIndex:"300"}}>
             <Box display={["block", "block", "block"]}>
                 <Swiper
                     spaceBetween={20}
@@ -44,13 +44,14 @@ const ThreedScroll = () => {
                 >
                     {img.map((image, i) => {
                         return (
-                            <SwiperSlide key={i}>
+                            <SwiperSlide key={i} style={{ zIndex: "300" }}>
                                 <Image
                                     src={image}
                                     alt="Hero image"
                                     borderRadius="10px"
                                     objectFit={"cover"}
                                     // maxH="300px"
+				    zIndex="base"
                                 />
                             </SwiperSlide>
                         );
