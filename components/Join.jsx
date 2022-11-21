@@ -29,7 +29,7 @@ const Join = () => {
                     >
                         <Button
                             as="a"
-                            href="https://twitter.com/azero_paladin?t=Ps2Cjq18CdlVILxjUGHVcg&s=09"
+                            href="#"
                             px={["18px"]}
                             py="25px"
                             display="flex"
@@ -59,7 +59,7 @@ const Join = () => {
                                 borderColor: "brand.deepBlue",
                             }}
                             as="a"
-                            href="https://discord.gg/fZXkG2ecUp"
+                            href="#"
                             px={["18px"]}
                             py="25px"
                             display="flex"
