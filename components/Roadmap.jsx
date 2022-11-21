@@ -1,8 +1,15 @@
-import { ReactElement } from "react";
+import { ReactElement, useEffect } from "react";
 import { Box, SimpleGrid, Icon, Text, Stack, Flex } from "@chakra-ui/react";
 import { SiProgress } from "react-icons/si";
 import ScreenSize from "../Layout/ScreenSize";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 const Feature = ({ title, text, icon, i }) => {
+
+	  useEffect(() => {
+          AOS.init();
+      }, []);
     return (
         <Stack
             border="1px"
@@ -15,6 +22,8 @@ const Feature = ({ title, text, icon, i }) => {
             bgImage="/bg.png"
             bgPos="center"
             bgAttachment={"fixed"}
+            data-aos="fade-up"
+            data-aos-duration="1000"
         >
             <Flex
                 w={"80px"}
@@ -54,11 +63,21 @@ export default function Roadmap() {
                         bgColor="brand.purple"
                         h="10px"
                         borderRadius="50%"
+                        data-aos="fade-left"
+                        data-aos-duration="500"
                     ></Text>
-                    <Text fontSize="14px" fontWeight="700" px="5px">
+                    <Text
+                        fontSize="14px"
+                        fontWeight="700"
+                        px="5px"
+                        data-aos="fade-up"
+                        data-aos-duration="1000"
+                    >
                         OUR ROADMAP
                     </Text>
                     <Text
+                        data-aos="fade-right"
+                        data-aos-duration="500"
                         w="10px"
                         bgColor="brand.purple"
                         h="10px"
@@ -73,6 +92,8 @@ export default function Roadmap() {
                     mx="auto"
                     maxWidth="700px"
                     mb="20"
+                    data-aos="fade-up"
+                    data-aos-duration="1000"
                 >
                     Starklabs Strategy And Project{" "}
                     <Text as="span" color="brand.purple">

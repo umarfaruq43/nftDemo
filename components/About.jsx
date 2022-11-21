@@ -13,8 +13,14 @@ import {
 } from "@chakra-ui/react";
 
 import ScreenSize from "../Layout/ScreenSize";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 export default function About() {
+    useEffect(() => {
+        AOS.init();
+    }, []);
     return (
         <Box
             bgImage="/bg.png"
@@ -41,11 +47,21 @@ export default function About() {
                             objectFit={"cover"}
                             //     maxH="550px"
                             h="100%"
+                            data-aos="flip-up"
+                            data-aos-duration="1000"
                         />
                     </Flex>
-                    <Flex justify={"center"} align="center" w={["100%", null, "50%"]}>
-                        <Box >
-                            <Flex align="center">
+                    <Flex
+                        justify={"center"}
+                        align="center"
+                        w={["100%", null, "50%"]}
+                    >
+                        <Box>
+                            <Flex
+                                align="center"
+                                data-aos="fade-up"
+                                data-aos-duration="1000"
+                            >
                                 <Text
                                     w="10px"
                                     bgColor="brand.purple"
@@ -62,7 +78,10 @@ export default function About() {
                                     borderRadius="50%"
                                 ></Text>
                             </Flex>
-                            <Heading>
+                            <Heading
+                                data-aos="fade-up"
+                                data-aos-duration="2000"
+                            >
                                 Demo/Sample{" "}
                                 <Text as="span" color="brand.purple">
                                     {" "}
@@ -70,13 +89,25 @@ export default function About() {
                                 </Text>{" "}
                                 collection
                             </Heading>
-                            <Text color={"brand.dimWhite"} fontSize={"sm"} mt="16px">
+                            <Text
+                                color={"brand.dimWhite"}
+                                fontSize={"sm"}
+                                mt="16px"
+                                data-aos="fade-up"
+                                data-aos-duration="1000"
+                            >
                                 Lorem ipsum dolor sit amet consectetur
                                 adipisicing elit. Neque, autem? Dolorem, unde
                                 adipisci quam explicabo impedit fugiat
                                 distinctio repudiandae sunt!
                             </Text>
-                            <Text mt="16px" color={"brand.dimWhite"} fontSize={"sm"}>
+                            <Text
+                                mt="16px"
+                                color={"brand.dimWhite"}
+                                fontSize={"sm"}
+                                data-aos="fade-up"
+                                data-aos-duration="1000"
+                            >
                                 Lorem ipsum dolor sit amet consectetur
                                 adipisicing elit. Officiis cupiditate in vero.
                             </Text>

@@ -14,8 +14,16 @@ import {
 } from "@chakra-ui/react";
 import { AiOutlineMinus, AiOutlinePlus } from "react-icons/ai";
 import { BsFillCheckCircleFill } from "react-icons/bs";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
+
 
 const Que = () => {
+ useEffect(() => {
+     AOS.init();
+ }, []);
+	
     return (
         <Accordion>
             {faq.map((item, i) => {
@@ -25,6 +33,8 @@ const Que = () => {
                         key={i}
                         border="none"
                         px={["10px", null, "20px"]}
+                        data-aos="fade-up"
+                        data-aos-duration="1000"
                     >
                         {({ isExpanded }) => (
                             <>

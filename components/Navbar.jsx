@@ -46,8 +46,8 @@ export default function Nav() {
                     alignItems={"center"}
                     justifyContent={"space-between"}
                 >
-                    <Text fontSize={["20px", null, "24px"]} fontWeight={"600"}>
-                        Demo/Sample
+                    <Text fontSize={["20px", null, "24px"]} letterSpacing="4px" textTransform="uppercase" fontWeight={"600"}>
+                        Starklabs
                     </Text>
 
                     <Flex alignItems={"center"}>
@@ -75,7 +75,7 @@ export default function Nav() {
                                     >
                                         <FaBars />
                                     </MenuButton>
-                                    <Box >
+                                    <Box>
                                         <MenuList
                                             alignItems={"center"}
                                             bgColor="brand.deepBlue"
