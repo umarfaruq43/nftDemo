@@ -10,6 +10,7 @@ const Hero = () => {
             bgImage="/bg.png"
             bgSize="cover"
             bgPosition="center"
+            bgAttachment="fixed"
             pb="45px"
         >
             <Box maxW="700px" mx="auto" textAlign={"center"} pt="30px">
@@ -19,7 +20,7 @@ const Hero = () => {
                     textTransform="uppercase"
                     style={{ letterSpacing: "3px" }}
                 >
-                    Welcome to
+                    S U I H E R O E S
                 </Text>
 
                 <Text
@@ -28,16 +29,17 @@ const Hero = () => {
                     textTransform="uppercase"
                     fontWeight={"600"}
                 >
-                    The Starklabs NFT
+                    A COLLECTION OF 1600 SUIHEROES
                 </Text>
 
                 <Text
                     mt={["10px", null, "16px"]}
-                    fontSize={["12px", null, "14px"]}
+                    fontSize={["12px", null, "16px"]}
                     mb={["20px", null, "20px"]}
+                    px="20px"
                 >
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Deleniti sit neque rerum beatae itaque quam! Sapiente.
+                    Created out of appreciation, these heroes will now live
+                    forever on chain!!
                 </Text>
             </Box>
 

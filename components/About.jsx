@@ -43,9 +43,9 @@ export default function About() {
                         <Image
                             rounded={"md"}
                             alt={"feature image"}
-                            src="/about.jpg"
+                            src="/images/user/mixed.jpeg"
                             objectFit={"cover"}
-                            //     maxH="550px"
+                                maxH="450px"
                             h="100%"
                             data-aos="flip-up"
                             data-aos-duration="1000"
@@ -88,7 +88,7 @@ export default function About() {
                                 data-aos="fade-up"
                                 data-aos-duration="1000"
                             >
-                                Demo/Sample{" "}
+                                Suiheroes
                                 <Text as="span" color="brand.purple">
                                     {" "}
                                     NFT’s
@@ -102,10 +102,10 @@ export default function About() {
                                 data-aos="fade-up"
                                 data-aos-duration="1000"
                             >
-                                Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Neque, autem? Dolorem, unde
-                                adipisci quam explicabo impedit fugiat
-                                distinctio repudiandae sunt!
+                                Here at Suiheroes, we want to create the leading
+                                brand in the Suinetwork ecosystem and we believe
+                                that Suinetwork is going to be the backbone of a
+                                multi-chain crypto ecosystem.
                             </Text>
                             <Text
                                 mt="16px"
@@ -114,8 +114,22 @@ export default function About() {
                                 data-aos="fade-up"
                                 data-aos-duration="1000"
                             >
-                                Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Officiis cupiditate in vero.
+                                We will be a first point of call for all lovers
+                                of lotteries in the community, as well as an
+                                Suinetwork advocate through collaborations with
+                                projects on other chains.
+                            </Text>
+
+                            <Text
+                                mt="16px"
+                                color={"brand.dimWhite"}
+                                fontSize={"sm"}
+                                data-aos="fade-up"
+                                data-aos-duration="1000"
+                            >
+                                Together with an active community, we strive to
+                                always maximize the value for Suiheroes NFT
+                                holders.
                             </Text>
                         </Box>
                     </Flex>

@@ -89,21 +89,21 @@ export default Que;
 
 const faq = [
     {
-        que: "Lorem ipsum dolor, sit amet?",
-        ans: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi, saepe fugit quod dignissimos sapiente sunt voluptatum mollitia explicabo tenetur similique quisquam ipsam debitis distinctio doloremque. Ipsa nam error atque.",
+        que: "When is the minting date?",
+        ans: "As the Suinetwork mainnet is not live yet, we can't determine the mint date. At the moment we're testing and preparing our SuiHeroes. The exact date is yet to be announced so follow our latest announcements on Discord, Twitter and Telegram.",
     },
     {
-        que: "Lorem ipsum dolor, sit amet?",
-        ans: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi, saepe fugit quod dignissimos sapiente sunt voluptatum mollitia explicabo tenetur similique quisquam ipsam debitis distinctio doloremque. Ipsa nam error atque.",
-    },
-
-    {
-        que: "Lorem ipsum dolor, sit amet?",
-        ans: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi, saepe fugit quod dignissimos sapiente sunt voluptatum mollitia explicabo tenetur similique quisquam ipsam debitis distinctio doloremque. Ipsa nam error atque.",
+        que: " What is the minting price?",
+        ans: "We want to have Suiheroes accessible to everyone. The currency of our project will be $SUI tokens, so the price will be adjusted to the value of $SUI when it reaches the public.",
     },
 
     {
-        que: "Lorem ipsum dolor, sit amet?",
-        ans: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi, saepe fugit quod dignissimos sapiente sunt voluptatum mollitia explicabo tenetur similique quisquam ipsam debitis distinctio doloremque. Ipsa nam error atque.",
+        que: "  Will there be secondary markets?",
+        ans: "Yes, we are in contact with Clutchy NFT marketplaces on the Suinetwork chain to be listed right after our mint.",
+    },
+
+    {
+        que: " Will there be a presale?",
+        ans: "Yes, we desire to ensure that active community members are rewarded that's why we are going to provide a presale mint for whitelisted users.",
     },
 ];

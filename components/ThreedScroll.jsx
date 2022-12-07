@@ -16,7 +16,7 @@ SwiperCore.use([Navigation, Autoplay, Pagination, EffectCoverflow]);
 
 const ThreedScroll = () => {
     return (
-        <Box maxWidth="" mx="auto"  id="mint" style={{zIndex:"300"}}>
+        <Box maxWidth="" mx="auto" id="mint" style={{ zIndex: "300" }}>
             <Box display={["block", "block", "block"]}>
                 <Swiper
                     spaceBetween={20}
@@ -40,18 +40,18 @@ const ThreedScroll = () => {
                     }}
                     navigation={true}
                     pagination={{ clickable: true }}
-                    style={{ maxWidth: "800px" }}
+                    style={{ maxWidth: "1000px" }}
                 >
                     {img.map((image, i) => {
                         return (
                             <SwiperSlide key={i} style={{ zIndex: "300" }}>
                                 <Image
-                                    src={image}
+                                    src={`/images/${image}`}
                                     alt="Hero image"
                                     borderRadius="10px"
                                     objectFit={"cover"}
                                     // maxH="300px"
-				    zIndex="base"
+                                    zIndex="base"
                                 />
                             </SwiperSlide>
                         );
@@ -59,7 +59,7 @@ const ThreedScroll = () => {
                 </Swiper>
             </Box>
 
-            <Box mt="22px" px="16px">
+            {/* <Box mt="22px" px="16px">
                 <Flex
                     gap={["16px", null, "32px"]}
                     justify="center"
@@ -89,7 +89,7 @@ const ThreedScroll = () => {
                         </Text>
                     </Button>
                 </Flex>
-            </Box>
+            </Box> */}
         </Box>
     );
 };
@@ -97,12 +97,18 @@ const ThreedScroll = () => {
 export default ThreedScroll;
 
 const img = [
-    "https://media.discordapp.net/attachments/1009914411223363604/1018243472676888757/1.png",
-    "https://media.discordapp.net/attachments/1009914411223363604/1019277903231455253/Skeletor.png",
-    "https://media.discordapp.net/attachments/1009914411223363604/1020047906524385381/no_name_skelly.png",
-    "https://media.discordapp.net/attachments/1009914411223363604/1021477670237773854/fourth.png",
-    "https://media.discordapp.net/attachments/1009914411223363604/1027284890384863373/seventh.png",
-    "https://media.discordapp.net/attachments/1009914411223363604/1025109910393995264/sixth.png",
-    "https://media.discordapp.net/attachments/1009914411223363604/1021863929871339611/sneak1.png",
-    "https://media.discordapp.net/attachments/1009914411223363604/1018884681032282122/KDL.png",
+    "user/user1.jpeg",
+    "user/user2.jpeg",
+    "user/user3.jpeg",
+    "user/user4.jpeg",
+    "user/user5.jpeg",
+    "user/user6.jpeg",
+    "user/user7.jpeg",
+    "user/user8.jpeg",
+    "user/user9.jpeg",
+    "user/user10.jpeg",
+    "user/user11.jpeg",
+    "user/user12.jpeg",
+    "user/user13.jpeg",
+    "user/user14.jpeg",
 ];

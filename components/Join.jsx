@@ -29,7 +29,7 @@ const Join = () => {
                     >
                         <Button
                             as="a"
-                            href="#"
+                            href="https://twitter.com/Suiheroes_io?t=TR0vVGY4Kbnr-e6dNbNPsA&s=09"
                             px={["18px"]}
                             py="25px"
                             display="flex"
@@ -37,7 +37,7 @@ const Join = () => {
                             bgColor={"brand.deepBlue"}
                             border="2px"
                             color="brand.white"
-			    borderColor="brand.deepBlue"
+                            borderColor="brand.deepBlue"
                             _hover={{
                                 color: "#fff",
                                 bgColor: "transparent",
@@ -59,7 +59,7 @@ const Join = () => {
                                 borderColor: "brand.deepBlue",
                             }}
                             as="a"
-                            href="#"
+                            href="http://discord.gg/eAGH6JPZVD"
                             px={["18px"]}
                             py="25px"
                             display="flex"

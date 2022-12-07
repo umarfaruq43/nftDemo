@@ -46,8 +46,13 @@ export default function Nav() {
                     alignItems={"center"}
                     justifyContent={"space-between"}
                 >
-                    <Text fontSize={["20px", null, "24px"]} letterSpacing="4px" textTransform="uppercase" fontWeight={"600"}>
-                        Starklabs
+                    <Text
+                        fontSize={["20px", null, "24px"]}
+                        letterSpacing="4px"
+                        textTransform="uppercase"
+                        fontWeight={"600"}
+                    >
+                        SUIHEROES
                     </Text>
 
                     <Flex alignItems={"center"}>
