@@ -61,7 +61,7 @@ export default function Roadmap() {
                     data-aos="fade-up"
                     data-aos-duration="1000"
                 >
-                    SUIHEROS Strategy And{" "}
+                    SUIHEROES{" "}
                     <Text as="span" color="brand.purple">
                         Project Plan
                     </Text>
@@ -74,7 +74,7 @@ export default function Roadmap() {
                         <Flex
                             key={i}
                             align={"center"}
-                            gap="30px"
+                            gap="20px"
                             cursor={"pointer"}
                             data-aos="flip"
                             data-aos-duration="1000"
@@ -96,7 +96,11 @@ export default function Roadmap() {
                                 </Text>
                             </Box>
                             <VStack align={"start"}>
-                                <Text fontWeight={600}>{feature}</Text>
+                                <Text fontWeight={600}>{feature.main}</Text>
+                                <Text fontSize={"14px"} color="whiteAlpha.600">
+                                    {" "}
+                                    {feature.details}{" "}
+                                </Text>
                             </VStack>
                         </Flex>
                     ))}
@@ -107,14 +111,48 @@ export default function Roadmap() {
 }
 
 const fig = [
-    "Build our community",
-    "Launch Socials",
-    "NFT Mint",
-    "Secondary Marketplace",
-    "$SUIHEROES Token",
-    "DEX Listing",
-    "3D SUIHEROES",
-    "SUIHEROES Marketplace",
-    "SUIHEROES DAO",
-    "SUIHEROES Web3.0 Lottery",
+    {
+        main: "Build our community",
+        details: "Our first mission is to build a strong SUI HEROES Community.",
+    },
+    {
+        main: "Launch Socials",
+        details: "Launching of our website and Discord.",
+    },
+    {
+        main: "NFT mint",
+        details:
+            "Successful SUI HEROES NFT mint on Marketplace and Launchpad .",
+    },
+    {
+        main: "Secondary Markets",
+        details: "Listing and features on NFT marketplaces.",
+    },
+    {
+        main: "SUI HEROES token",
+        details: "Airdrop of SUI HEROES token to all SUI HEROES NFT holders.",
+    },
+    {
+        main: "SUI HEROES DEX LISTING",
+        details:
+            "Use 20% $SUIHEROES from the SUI HEROESNFT’s sales as LIQUIDITY on a DEX.",
+    },
+    {
+        main: " 3D SUI HEROES",
+        details:
+            "Launch of 3D SUI HEROES, this will be airdropped to original SUI HEROES NFT holders.",
+    },
+    {
+        main: "SUI HEROES Market",
+        details:
+            "Platform where users can sell and purchase 3D HEROES, assets, and accessories.",
+    },
+    {
+        main: "SUI HEROES DAO",
+        details: "Creation of the community SUI HEROES DAO.",
+    },
+    {
+        main: "SUI HEROES Web 3.0 Lottery",
+        details: "Opening of our first SUI HEROES Web 3.0 Lottery.",
+    },
 ];

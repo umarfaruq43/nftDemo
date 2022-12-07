@@ -153,4 +153,8 @@ const NavContent = [
         href: "#faq",
         text: "FAQ",
     },
+    {
+        href: "#whitelist",
+        text: "Whitelist",
+    },
 ];

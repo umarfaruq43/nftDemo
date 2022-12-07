@@ -28,34 +28,6 @@ const Team = () => {
                 pb={["42px", null, "84px"]}
             >
                 <Box>
-                    <Flex align="center" justify={"center"} mb="20px">
-                        <Text
-                            w="10px"
-                            bgColor="brand.purple"
-                            h="10px"
-                            borderRadius="50%"
-                            data-aos="fade-left"
-                            data-aos-duration="500"
-                        ></Text>
-                        <Text
-                            fontSize="14px"
-                            fontWeight="700"
-                            px="5px"
-                            data-aos="fade-up"
-                            data-aos-duration="1000"
-                        >
-                            OUR BENEFITS
-                        </Text>
-                        <Text
-                            data-aos="fade-right"
-                            data-aos-duration="500"
-                            w="10px"
-                            bgColor="brand.purple"
-                            h="10px"
-                            borderRadius="50%"
-                        ></Text>
-                    </Flex>
-
                     <Text
                         fontSize={["2xl", null, "4xl"]}
                         color="brand.purple"
@@ -145,7 +117,8 @@ const profile = [
     {
         user: "Asinto Lome",
         href: "#",
-        image: "/images/team1.jpeg",
+        image: "/images/team3.jpeg",
+
         position: "Project Founder",
     },
     {
@@ -157,7 +130,8 @@ const profile = [
     {
         user: "Emmanuel Peter",
         href: "#",
-        image: "/images/team3.jpeg",
+        image: "/images/team1.jpeg",
+
         position: "Project Artist",
     },
     {

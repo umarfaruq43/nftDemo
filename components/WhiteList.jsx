@@ -31,24 +31,36 @@ const WhiteList = () => {
     };
 
     return (
-        <Box id="whitelist" py="64px">
+        <Box id="whitelist" position="relative" py="64px">
             <Box mb="30px" id="roadmap">
-                <Flex align="center" justify={"center"} mb="20px">
-                    <Text
-                        w="10px"
-                        bgColor="brand.cyan"
-                        h="10px"
-                        borderRadius="50%"
-                    ></Text>
-                    <Text fontSize="14px" fontWeight="700" px="5px">
-                        OUR WHITELIST
-                    </Text>
-                    <Text
-                        w="10px"
-                        bgColor="brand.cyan"
-                        h="10px"
-                        borderRadius="50%"
-                    ></Text>
+                <Flex justify="center" mb="20px">
+                    <Flex align="center">
+                        <Text
+                            w="10px"
+                            bgColor="brand.purple"
+                            h="10px"
+                            borderRadius="50%"
+                            data-aos="fade-left"
+                            data-aos-duration="1000"
+                        ></Text>
+                        <Text
+                            fontSize="14px"
+                            fontWeight="700"
+                            px="5px"
+                            data-aos="fade-up"
+                            data-aos-duration="1000"
+                        >
+                            OUR WHITELIST
+                        </Text>
+                        <Text
+                            w="10px"
+                            bgColor="brand.purple"
+                            h="10px"
+                            borderRadius="50%"
+                            data-aos="fade-right"
+                            data-aos-duration="1000"
+                        ></Text>
+                    </Flex>
                 </Flex>
 
                 <Text
@@ -59,17 +71,17 @@ const WhiteList = () => {
                     maxWidth="700px"
                     mb="10"
                 >
-                    <Text as="span" color="brand.cyan">
-                        demo/Sample
+                    <Text as="span" color="brand.purple">
+                        SUIHEROES
                     </Text>{" "}
                     Whitelist Checker{" "}
                 </Text>
             </Box>
 
             <Box
-                bgColor="brand.deepBlue"
+                bgColor="transparent"
                 border="1px"
-                borderColor="brand.cyan"
+                borderColor="brand.purple"
                 pt={["45px", null, "45px"]}
                 maxW="700px"
                 mx="auto"
@@ -93,7 +105,7 @@ const WhiteList = () => {
                             placeholder="Write your ERC-20 address to check your wallet
                             status"
                             //     _placeholder={}
-                            borderColor="brand.cyan"
+                            borderColor="brand.purple"
                             border="1px solid "
                             value={address}
                             onChange={handleAddress}
@@ -101,13 +113,13 @@ const WhiteList = () => {
 
                         <Button
                             onClick={handleSubmit}
-                            bgColor="brand.cyan"
+                            bgColor="brand.purple"
                             fontSize={["12px", null, "16px"]}
                             _active={{
-                                bgColor: "brand.cyan",
+                                bgColor: "brand.purple",
                             }}
                             _hover={{
-                                bgColor: "brand.cyan",
+                                bgColor: "brand.purple",
                             }}
                             minW="100px"
                             type="submit"

@@ -45,7 +45,7 @@ export default function About() {
                             alt={"feature image"}
                             src="/images/user/mixed.jpeg"
                             objectFit={"cover"}
-                                maxH="450px"
+                            maxH="450px"
                             h="100%"
                             data-aos="flip-up"
                             data-aos-duration="1000"
@@ -95,6 +95,17 @@ export default function About() {
                                 </Text>{" "}
                                 collection
                             </Heading>
+                            <Text
+                                color={"brand.dimWhite"}
+                                fontSize={"sm"}
+                                mt="16px"
+                                data-aos="fade-up"
+                                data-aos-duration="1000"
+                            >
+                                A collection of Sui Heroes, immortalised within
+                                our #NFTs. Created out of appreciation, these
+                                heroes will now live forever on chain!!
+                            </Text>
                             <Text
                                 color={"brand.dimWhite"}
                                 fontSize={"sm"}

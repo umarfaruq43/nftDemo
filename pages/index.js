@@ -34,6 +34,7 @@ export default function Home() {
                 <Collection />
                 <Roadmap />
                 <Team />
+                <WhiteList />
                 <Partners />
                 <Faq />
                 <Join />

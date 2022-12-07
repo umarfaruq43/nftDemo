@@ -101,7 +101,7 @@ export default function Benefit() {
                     data-aos="fade-up"
                     data-aos-duration="1000"
                 >
-                    SUIHEROS Shareholders{" "}
+                    SUIHEROES Shareholders{" "}
                     <Text as="span" color="brand.purple">
                         Benefits
                     </Text>

@@ -20,7 +20,7 @@ const Partners = () => {
             py="64px"
             bgImage="bg.png"
             bgAttachment={"fixed"}
-        //     bgColor="brand.purple"
+            //     bgColor="brand.purple"
             bgSize="cover"
         >
             <ScreenSize>
@@ -62,7 +62,7 @@ const Partners = () => {
                         data-aos="fade-up"
                         data-aos-duration="1000"
                     >
-                        SUIHEROS PARTNERS{" "}
+                        SUIHEROES PARTNERS{" "}
                         <Text as="span" color="brand.purple">
                             {/* Benefits */}
                         </Text>
