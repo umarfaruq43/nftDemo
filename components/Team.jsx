@@ -122,7 +122,7 @@ const profile = [
         position: "Project Founder",
     },
     {
-        user: "Seth Tarantino",
+        user: "Opilotera Toni",
         href: "#",
         image: "/images/team2.jpeg",
         position: "Co-Founder",
