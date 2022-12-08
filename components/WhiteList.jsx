@@ -102,7 +102,7 @@ const WhiteList = () => {
                         <Input
                             type="text"
                             id=""
-                            placeholder="Write your ERC-20 address to check your wallet
+                            placeholder="Write your SUI wallet  address to check your wallet
                             status"
                             //     _placeholder={}
                             borderColor="brand.purple"

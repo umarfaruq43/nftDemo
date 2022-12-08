@@ -135,9 +135,9 @@ const profile = [
         position: "Project Artist",
     },
     {
-        user: "UllastheMod",
+        user: "Abu Musa",
         href: "#",
         image: "/images/team4.jpeg",
-        position: "Community Moderator",
+        position: "Website Developer",
     },
 ];
