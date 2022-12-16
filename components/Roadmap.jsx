@@ -112,7 +112,7 @@ export default function Roadmap() {
 
 const fig = [
     {
-        main: "Build our community",
+        main: "Build a strong community",
         details: "Our first mission is to build a strong SUI HEROES Community.",
     },
     {
@@ -121,38 +121,46 @@ const fig = [
     },
     {
         main: "NFT mint",
+        details: "SUI HEROES NFT mint on Clutchy Marketplace and Launchpad . ",
+    },
+    {
+        main: "SECONDARY MARKETS",
+        details: "Listing and features on Clutchy NFT marketplaces. ",
+    },
+    {
+        main: "SUI HEROES TOKEN IDO & Airdrop",
         details:
-            "Successful SUI HEROES NFT mint on Marketplace and Launchpad .",
+            "Conduct a TOKEN IDO sale on a Launchpad & Airdrop of SUI HEROES token to all SUI HEROES NFT holders.",
     },
     {
-        main: "Secondary Markets",
-        details: "Listing and features on NFT marketplaces.",
+        main: "SUIHEROES TOKEN DEX LISTING",
+        details: "Listing of SuiHeroes Token ($SHS) on a DEX.",
     },
     {
-        main: "SUI HEROES token",
-        details: "Airdrop of SUI HEROES token to all SUI HEROES NFT holders.",
+        main: " SuperCharged Staking ",
+        details: "Stake your NFT and Tokens to earn SuperCharged rewards",
     },
     {
-        main: "SUI HEROES DEX LISTING",
+        main: "CoinFlip ",
         details:
-            "Use 20% $SUIHEROES from the SUI HEROESNFT’s sales as LIQUIDITY on a DEX.",
+            "Throw a coin, your luck, your money!! (Platform fees of 3.5% will be taken from a winning CoinFlip)",
     },
     {
-        main: " 3D SUI HEROES",
+        main: " 3D SUI HEROES ",
         details:
             "Launch of 3D SUI HEROES, this will be airdropped to original SUI HEROES NFT holders.",
     },
     {
-        main: "SUI HEROES Market",
+        main: "SUI HEROES Marketplace",
         details:
             "Platform where users can sell and purchase 3D HEROES, assets, and accessories.",
     },
     {
-        main: "SUI HEROES DAO",
+        main: " SUI HEROES DAO",
         details: "Creation of the community SUI HEROES DAO.",
     },
     {
-        main: "SUI HEROES Web 3.0 Lottery",
-        details: "Opening of our first SUI HEROES Web 3.0 Lottery.",
+        main: "SUI HEROES Web 3.0",
+        details: "Lottery Opening of our first SUI HEROES Web 3.0 Lottery.",
     },
 ];
