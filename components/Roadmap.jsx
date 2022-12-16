@@ -160,7 +160,7 @@ const fig = [
         details: "Creation of the community SUI HEROES DAO.",
     },
     {
-        main: "SUI HEROES Web 3.0",
-        details: "Lottery Opening of our first SUI HEROES Web 3.0 Lottery.",
+        main: "SUI HEROES Web 3.0 Lottery",
+        details: "Opening of our first SUI HEROES Web 3.0 Lottery.",
     },
 ];
