@@ -21,7 +21,7 @@ export default function Home() {
                 <title>SUIHEROES </title>
                 <meta
                     name="description"
-                    content="A COLLECTION OF 1600 SUIHEROES. Created out of appreciation, these heroes will now live forever on chain!!"
+                    content="A COLLECTION OF 4000 SUIHEROES. Created out of appreciation, these heroes will now live forever on chain!!"
                 />
                 {/* <link rel="icon" href="/favicon.ico" /> */}
             </Head>

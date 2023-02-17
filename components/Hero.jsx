@@ -29,7 +29,7 @@ const Hero = () => {
                     textTransform="uppercase"
                     fontWeight={"600"}
                 >
-                    A COLLECTION OF 1600 SUIHEROES
+                    A COLLECTION OF 4000 SUIHEROES
                 </Text>
 
                 <Text
