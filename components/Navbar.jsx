@@ -157,4 +157,8 @@ const NavContent = [
         href: "#whitelist",
         text: "Whitelist",
     },
+    {
+        href: "https://sui-heroes.gitbook.io/litepaper/",
+        text: "Litepsper",
+    },
 ];
