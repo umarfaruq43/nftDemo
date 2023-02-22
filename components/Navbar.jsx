@@ -159,6 +159,6 @@ const NavContent = [
     },
     {
         href: "https://sui-heroes.gitbook.io/litepaper/",
-        text: "Litepsper",
+        text: "Litepaper",
     },
 ];
