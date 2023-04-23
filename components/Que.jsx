@@ -18,12 +18,11 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 
-
 const Que = () => {
- useEffect(() => {
-     AOS.init();
- }, []);
-	
+    useEffect(() => {
+        AOS.init();
+    }, []);
+
     return (
         <Accordion>
             {faq.map((item, i) => {
@@ -82,7 +81,6 @@ const Que = () => {
             })}
         </Accordion>
     );
-    
 };
 
 export default Que;
@@ -99,7 +97,7 @@ const faq = [
 
     {
         que: "  Will there be secondary markets?",
-        ans: "Yes, we are in contact with Clutchy NFT marketplaces on the Suinetwork chain to be listed right after our mint.",
+        ans: "Yes, we are in contact with BLUEMOVE NFT marketplaces on the Suinetwork chain to be listed right after our mint.",
     },
 
     {

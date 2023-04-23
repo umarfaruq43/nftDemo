@@ -121,11 +121,11 @@ const fig = [
     },
     {
         main: "NFT mint",
-        details: "SUI HEROES NFT mint on Clutchy Marketplace and Launchpad . ",
+        details: "SUI HEROES NFT mint on BLUEMOVE Marketplace and Launchpad . ",
     },
     {
         main: "SECONDARY MARKETS",
-        details: "Listing and features on Clutchy NFT marketplaces. ",
+        details: "Listing and features on BLUEMOVE NFT marketplaces. ",
     },
     {
         main: "SUI HEROES TOKEN IDO & Airdrop",
